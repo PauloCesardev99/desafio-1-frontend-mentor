@@ -1,0 +1,159 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    color:  hsl(241, 100%, 89%);
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: hsl(241, 81%, 54%);
+     color: white;
+     border-radius: 0px 0px 35px 35px;
+}
+
+.resultado div h1{
+    color:  hsl(241, 100%, 89%);
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+
+.circle h2{
+    font-size: 3em;
+}
+
+.circle h3{
+    margin-top: 10px;
+    font-size: 1em;
+    color:  hsl(241, 100%, 89%); ;
+
+}
+
+
+.msg-score h3{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/*Parte de baixo*/
+
+.summary{
+    padding: 30px;
+}
+
+
+.summary .summary-score{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.summary .summary-score span {
+    align-self: center;
+}
+
+.texto-summary{
+    padding: 10px;
+}
+
+.summary .pontuacao{
+    align-self: center;
+}
+
+.numeros-score{
+    color:  hsl(241, 100%, 89%);;
+}
+
+
+.summary-score.reaction{
+    background-color:  hsla(0, 100%, 67%, 0.080) ;
+}
+
+.summary-score.reaction .texto-summary{
+
+    color: hsl(0, 100%, 67%);
+   
+}
+
+.summary-score.memory{
+    background-color:  hsla(39, 100%, 56%, 0.092);
+
+}
+
+.summary-score.memory .texto-summary{
+
+    color: hsl(39, 100%, 56%);
+   
+}
+
+.summary-score.verbal{
+    background-color: hsla(166, 100%, 37%, 0.061) ;
+}
+
+.summary-score.verbal .texto-summary{
+
+    color: hsl(166, 100%, 37%);
+   
+}
+
+.summary-score.visual{
+    background-color: hsla(234, 85%, 45%, 0.072) ;
+}
+
+.summary-score.visual .texto-summary{
+
+    color: hsl(234, 85%, 45%);
+   
+}
+
+
+
+
+
+/* Botão */
+
+.pai-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+}
